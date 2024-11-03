@@ -5,36 +5,32 @@ const temperatures = [
 
 // 1) Using `filterHighTemperatures` function return a new array containing temperatures greater than or equal to 25 degrees Celsius.
 function filterHighTemperatures(temps) {
-  return temps.filter((temp) => temp >= 25);
+  // Your code here
 }
 
 // Using `filterLowTemperatures` function return a new array containing temperatures less than 20 degrees Celsius.
 function filterLowTemperatures(temps) {
-  return temps.filter((temp) => temp < 20);
+  // Your code here
 }
 
 // Using `convertCelsiusToFahrenheit` function Convert the entire list of temperatures to Fahrenheit, and return it. Use the formula (Celsius * 9/5) + 32.
 function convertCelsiusToFahrenheit(temps) {
-  return temps.map((temp) => (temp * 9) / 5 + 32);
+  // Your code here
 }
 
 // Using `labelTemperatures` function return a new array that labels each temperature as either "Warm" for temperatures >=25, "Mild" for temperatures between 20 and 24, and "Cool" for temperatures <20
 function labelTemperatures(temps) {
-  return temps.map((temp) => {
-    if (temp >= 25) return "Warm";
-    else if (temp < 20) return "Cool";
-    else return "Mild";
-  });
+  // Your code here
 }
 
 // Using `getMaxTemperature` function Calculate and return the highest temperature of the month.
 function getMaxTemperature(temps) {
-  return Math.max(...temps);
+  // Your code here
 }
 
 // Using `getMinTemperature` Calculate and return the lowest temperature of the month.
 function getMinTemperature(temps) {
-  return Math.min(...temps);
+  // Your code here
 }
 
 module.exports = {
