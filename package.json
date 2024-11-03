@@ -5,6 +5,7 @@
   "main": "iterationMethods.js",
   "scripts": {
     "test": "jest --watch"
+    "ghworkflowtest": "jest"
   },
   "keywords": [],
   "author": "",
