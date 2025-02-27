@@ -12,7 +12,7 @@ const temperatures = [
   27, 26, 25, 22, 23, 19, 20, 28, 29, 27, 26,
 ];
 
-describe("Temperature Analysis and Transformations", () => {
+describe("Temperatures", () => {
   describe("Temperature Analysis", () => {
     describe("filterHighTemperatures", () => {
       it("should filter temperatures greater than or equal to 25 degrees Celsius", () => {
