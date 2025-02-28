@@ -1,4 +1,5 @@
 import {
+  temperatures,
   convertCelsiusToFahrenheit,
   filterHighTemperatures,
   filterLowTemperatures,
@@ -6,11 +7,6 @@ import {
   getMinTemperature,
   labelTemperatures,
 } from "../temperatures";
-
-const temperatures = [
-  22, 25, 19, 24, 28, 30, 21, 20, 27, 29, 23, 26, 24, 22, 18, 19, 21, 28, 30,
-  27, 26, 25, 22, 23, 19, 20, 28, 29, 27, 26,
-];
 
 describe("Temperatures", () => {
   describe("Temperature Analysis", () => {
