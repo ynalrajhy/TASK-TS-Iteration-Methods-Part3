@@ -5,7 +5,7 @@ import {
   getMaxTemperature,
   getMinTemperature,
   labelTemperatures,
-} from "./temperatures";
+} from "../temperatures";
 
 const temperatures = [
   22, 25, 19, 24, 28, 30, 21, 20, 27, 29, 23, 26, 24, 22, 18, 19, 21, 28, 30,
